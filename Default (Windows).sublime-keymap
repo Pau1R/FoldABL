@@ -1,0 +1,14 @@
+[
+	// Toggle fold current code block
+  { "keys": ["ctrl+alt+["],
+    "command": "abl_fold"},
+
+	// Toggle unfold current code block
+  { "keys": ["ctrl+alt+]"],
+    "command": "abl_unfold"},
+
+	// Toggle unfold current code block
+  { "keys": ["ctrl+alt+'"],
+    "command": "abl_highlight"}
+
+]
