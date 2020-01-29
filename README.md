@@ -1,4 +1,4 @@
-# Fold-ABL
+# FoldABL
 Intelligent folding by syntax for OpenEdge ABL, developed for Sublime Text
 ```
 ctrl+alt+[ - fold block
