@@ -1,14 +1,29 @@
 [
 	// Toggle fold current code block
   { "keys": ["ctrl+alt+["],
-    "command": "abl_fold"},
+    "command": "abl_fold",
+    "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.abl - string" },
+        ]
+    },
 
 	// Toggle unfold current code block
   { "keys": ["ctrl+alt+]"],
-    "command": "abl_unfold"},
+    "command": "abl_unfold",
+    "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.abl - string" },
+        ]
+    },
 
 	// Toggle unfold current code block
   { "keys": ["ctrl+alt+'"],
-    "command": "abl_highlight"}
+    "command": "abl_highlight",
+    "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.abl - string" },
+        ]
+    }
 
 ]
